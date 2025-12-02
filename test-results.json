@@ -1,0 +1,1946 @@
+{
+  "config": {
+    "configFile": "/Users/valerazatler/Developer/nextjs9/title-loans-site/playwright.config.ts",
+    "rootDir": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "Desktop Chrome",
+        "name": "Desktop Chrome",
+        "testDir": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "title-loans-validation.spec.ts",
+      "file": "title-loans-validation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Homepage (Anti-Doorway Validation)",
+          "file": "title-loans-validation.spec.ts",
+          "line": 79,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Homepage loads successfully (200 status)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 737,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Homepage loads (200)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:15:59.668Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-88f8de8d0d38024617b2",
+              "file": "title-loans-validation.spec.ts",
+              "line": 80,
+              "column": 7
+            },
+            {
+              "title": "Homepage has proper SEO meta tags",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 584,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Meta tags OK (title: 56, desc: 157)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:00.785Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-6a3ede2ec204cd63e898",
+              "file": "title-loans-validation.spec.ts",
+              "line": 86,
+              "column": 7
+            },
+            {
+              "title": "Homepage has schema markup (Organization + FAQPage)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 578,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Organization and FAQPage schema present\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:01.374Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-cb36c0d878790a653d8b",
+              "file": "title-loans-validation.spec.ts",
+              "line": 104,
+              "column": 7
+            },
+            {
+              "title": "Homepage has navigation links",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 597,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ All navigation links present\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:01.956Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-215fd66bc906ea5a7812",
+              "file": "title-loans-validation.spec.ts",
+              "line": 112,
+              "column": 7
+            },
+            {
+              "title": "Homepage has click-to-call with valid phone",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 577,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Click-to-call links present (5 found)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:02.556Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-f8c210a6d65a4cc82ae6",
+              "file": "title-loans-validation.spec.ts",
+              "line": 129,
+              "column": 7
+            },
+            {
+              "title": "Homepage has trust signals",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 608,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Trust signals present (badges/testimonials)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:03.137Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-26062c1e63a36fec0dae",
+              "file": "title-loans-validation.spec.ts",
+              "line": 145,
+              "column": 7
+            },
+            {
+              "title": "No console errors on homepage",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 576,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ No console errors\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:03.748Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-860f6ba7d71330770890",
+              "file": "title-loans-validation.spec.ts",
+              "line": 159,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Services Pages",
+          "file": "title-loans-validation.spec.ts",
+          "line": 178,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Services index page loads (200)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 835,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Services index loads (200)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:04.328Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-7ca0f0b37bdde41d3cb8",
+              "file": "title-loans-validation.spec.ts",
+              "line": 179,
+              "column": 7
+            },
+            {
+              "title": "Services pages have proper SEO meta tags",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 531,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Services page SEO tags OK\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:05.166Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-b08a7789380cf638ae95",
+              "file": "title-loans-validation.spec.ts",
+              "line": 185,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Locations Index Page",
+          "file": "title-loans-validation.spec.ts",
+          "line": 203,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Locations index loads (200)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 621,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Locations index loads (200)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:05.701Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-347a6c669c6282d8b73a",
+              "file": "title-loans-validation.spec.ts",
+              "line": 204,
+              "column": 7
+            },
+            {
+              "title": "Locations index lists states (CA and FL)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 485,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ States listed on locations index\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:06.325Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-d934aa519408f86314df",
+              "file": "title-loans-validation.spec.ts",
+              "line": 210,
+              "column": 7
+            },
+            {
+              "title": "Locations index has links to state pages",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 511,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:225:19",
+                        "location": {
+                          "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                          "column": 19,
+                          "line": 225
+                        },
+                        "snippet": "  223 |     const stateLinks = page.locator('a[href*=\"/locations/california\"], a[href*=\"/locations/florida\"]');\n  224 |     const count = await stateLinks.count();\n> 225 |     expect(count).toBeGreaterThan(0);\n      |                   ^\n  226 |\n  227 |     console.log(`✅ State page links present (${count} found)`);\n  228 |   });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                            "column": 19,
+                            "line": 225
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n  223 |     const stateLinks = page.locator('a[href*=\"/locations/california\"], a[href*=\"/locations/florida\"]');\n  224 |     const count = await stateLinks.count();\n> 225 |     expect(count).toBeGreaterThan(0);\n      |                   ^\n  226 |\n  227 |     console.log(`✅ State page links present (${count} found)`);\n  228 |   });\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:225:19"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:06.814Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Loc-a5c9a-ex-has-links-to-state-pages-Desktop-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Loc-a5c9a-ex-has-links-to-state-pages-Desktop-Chrome/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Loc-a5c9a-ex-has-links-to-state-pages-Desktop-Chrome/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                        "column": 19,
+                        "line": 225
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-ee00de3a6ed53e95f7b7",
+              "file": "title-loans-validation.spec.ts",
+              "line": 220,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "State Pages",
+          "file": "title-loans-validation.spec.ts",
+          "line": 234,
+          "column": 6,
+          "specs": [
+            {
+              "title": "California state page loads (200)",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1018,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:237:32",
+                        "location": {
+                          "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                          "column": 32,
+                          "line": 237
+                        },
+                        "snippet": "  235 |   test('California state page loads (200)', async ({ page }) => {\n  236 |     const response = await page.goto(`${BASE_URL}${TEST_URLS.californiaState}`);\n> 237 |     expect(response?.status()).toBe(200);\n      |                                ^\n  238 |     console.log('✅ California state page loads (200)');\n  239 |   });\n  240 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                            "column": 32,
+                            "line": 237
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m\n\n  235 |   test('California state page loads (200)', async ({ page }) => {\n  236 |     const response = await page.goto(`${BASE_URL}${TEST_URLS.californiaState}`);\n> 237 |     expect(response?.status()).toBe(200);\n      |                                ^\n  238 |     console.log('✅ California state page loads (200)');\n  239 |   });\n  240 |\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:237:32"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:07.589Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Sta-a70bb-ornia-state-page-loads-200--Desktop-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Sta-a70bb-ornia-state-page-loads-200--Desktop-Chrome/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Sta-a70bb-ornia-state-page-loads-200--Desktop-Chrome/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                        "column": 32,
+                        "line": 237
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-6dd2c3f902b3d947efdb",
+              "file": "title-loans-validation.spec.ts",
+              "line": 235,
+              "column": 7
+            },
+            {
+              "title": "Florida state page loads (200)",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 569,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:243:32",
+                        "location": {
+                          "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                          "column": 32,
+                          "line": 243
+                        },
+                        "snippet": "  241 |   test('Florida state page loads (200)', async ({ page }) => {\n  242 |     const response = await page.goto(`${BASE_URL}${TEST_URLS.floridaState}`);\n> 243 |     expect(response?.status()).toBe(200);\n      |                                ^\n  244 |     console.log('✅ Florida state page loads (200)');\n  245 |   });\n  246 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                            "column": 32,
+                            "line": 243
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m404\u001b[39m\n\n  241 |   test('Florida state page loads (200)', async ({ page }) => {\n  242 |     const response = await page.goto(`${BASE_URL}${TEST_URLS.floridaState}`);\n> 243 |     expect(response?.status()).toBe(200);\n      |                                ^\n  244 |     console.log('✅ Florida state page loads (200)');\n  245 |   });\n  246 |\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:243:32"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:08.945Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Sta-ad8b3-orida-state-page-loads-200--Desktop-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Sta-ad8b3-orida-state-page-loads-200--Desktop-Chrome/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Sta-ad8b3-orida-state-page-loads-200--Desktop-Chrome/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                        "column": 32,
+                        "line": 243
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-66196b19a357e2a97c8b",
+              "file": "title-loans-validation.spec.ts",
+              "line": 241,
+              "column": 7
+            },
+            {
+              "title": "State pages list cities",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 548,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ State pages have city content\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:09.857Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-44afaac3efaa19607363",
+              "file": "title-loans-validation.spec.ts",
+              "line": 247,
+              "column": 7
+            },
+            {
+              "title": "State pages have schema markup",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 542,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:261:23",
+                        "location": {
+                          "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                          "column": 23,
+                          "line": 261
+                        },
+                        "snippet": "  259 |\n  260 |     const hasSchema = await hasSchemaMarkup(page, ['BreadcrumbList', 'LocalBusiness', 'FinancialService']);\n> 261 |     expect(hasSchema).toBe(true);\n      |                       ^\n  262 |\n  263 |     console.log('✅ State page schema markup present');\n  264 |   });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                            "column": 23,
+                            "line": 261
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n  259 |\n  260 |     const hasSchema = await hasSchemaMarkup(page, ['BreadcrumbList', 'LocalBusiness', 'FinancialService']);\n> 261 |     expect(hasSchema).toBe(true);\n      |                       ^\n  262 |\n  263 |     console.log('✅ State page schema markup present');\n  264 |   });\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:261:23"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:10.491Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Sta-57d01-te-pages-have-schema-markup-Desktop-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Sta-57d01-te-pages-have-schema-markup-Desktop-Chrome/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Sta-57d01-te-pages-have-schema-markup-Desktop-Chrome/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                        "column": 23,
+                        "line": 261
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-9ddce90859a98cb1ff17",
+              "file": "title-loans-validation.spec.ts",
+              "line": 257,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "City Pages (Anti-Doorway Validation)",
+          "file": "title-loans-validation.spec.ts",
+          "line": 270,
+          "column": 6,
+          "specs": [
+            {
+              "title": "All city pages load (200 status)",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 2389,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m6\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m6\u001b[39m\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:294:27",
+                        "location": {
+                          "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                          "column": 27,
+                          "line": 294
+                        },
+                        "snippet": "  292 |       console.log('❌ City page load errors:', errors);\n  293 |     }\n> 294 |     expect(errors.length).toBe(0);\n      |                           ^\n  295 |     console.log(`✅ All ${cityPages.length} city pages load (200)`);\n  296 |   });\n  297 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                            "column": 27,
+                            "line": 294
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m6\u001b[39m\n\n  292 |       console.log('❌ City page load errors:', errors);\n  293 |     }\n> 294 |     expect(errors.length).toBe(0);\n      |                           ^\n  295 |     console.log(`✅ All ${cityPages.length} city pages load (200)`);\n  296 |   });\n  297 |\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:294:27"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "❌ City page load errors: [\n  \u001b[32m'404: /locations/california/los-angeles-ca'\u001b[39m,\n  \u001b[32m'404: /locations/california/san-francisco-ca'\u001b[39m,\n  \u001b[32m'404: /locations/california/san-diego-ca'\u001b[39m,\n  \u001b[32m'404: /locations/florida/miami-fl'\u001b[39m,\n  \u001b[32m'404: /locations/florida/tampa-fl'\u001b[39m,\n  \u001b[32m'404: /locations/florida/jacksonville-fl'\u001b[39m\n]\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:11.284Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Cit-d3bc7-city-pages-load-200-status--Desktop-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Cit-d3bc7-city-pages-load-200-status--Desktop-Chrome/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Cit-d3bc7-city-pages-load-200-status--Desktop-Chrome/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                        "column": 27,
+                        "line": 294
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-74fbc087f7044837dd9d",
+              "file": "title-loans-validation.spec.ts",
+              "line": 280,
+              "column": 7
+            },
+            {
+              "title": "City pages have H1 with city name",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 562,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m5\u001b[39m\nReceived:   \u001b[31m3\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m5\u001b[39m\nReceived:   \u001b[31m3\u001b[39m\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:306:30",
+                        "location": {
+                          "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                          "column": 30,
+                          "line": 306
+                        },
+                        "snippet": "  304 |\n  305 |       expect(h1Text).toBeTruthy();\n> 306 |       expect(h1Text!.length).toBeGreaterThan(5);\n      |                              ^\n  307 |     }\n  308 |\n  309 |     console.log('✅ All city pages have H1 tags');"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                            "column": 30,
+                            "line": 306
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m5\u001b[39m\nReceived:   \u001b[31m3\u001b[39m\n\n  304 |\n  305 |       expect(h1Text).toBeTruthy();\n> 306 |       expect(h1Text!.length).toBeGreaterThan(5);\n      |                              ^\n  307 |     }\n  308 |\n  309 |     console.log('✅ All city pages have H1 tags');\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:306:30"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:14.019Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Cit-50369-ages-have-H1-with-city-name-Desktop-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Cit-50369-ages-have-H1-with-city-name-Desktop-Chrome/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Cit-50369-ages-have-H1-with-city-name-Desktop-Chrome/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                        "column": 30,
+                        "line": 306
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-a79d675a89cedc8d1921",
+              "file": "title-loans-validation.spec.ts",
+              "line": 298,
+              "column": 7
+            },
+            {
+              "title": "City pages have local area code phone numbers (NOT 1-800)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2112,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "⚠️ Phone number warnings: [\n  \u001b[32m'TOLL-FREE PHONE: /locations/california/los-angeles-ca - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/california/los-angeles-ca - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/california/los-angeles-ca - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/california/san-francisco-ca - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/california/san-francisco-ca - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/california/san-francisco-ca - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/california/san-diego-ca - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/california/san-diego-ca - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/california/san-diego-ca - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/florida/miami-fl - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/florida/miami-fl - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/florida/miami-fl - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/florida/tampa-fl - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/florida/tampa-fl - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/florida/tampa-fl - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/florida/jacksonville-fl - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/florida/jacksonville-fl - tel:+18005551234'\u001b[39m,\n  \u001b[32m'TOLL-FREE PHONE: /locations/florida/jacksonville-fl - tel:+18005551234'\u001b[39m\n]\n"
+                        },
+                        {
+                          "text": "✅ City pages have phone numbers\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:14.922Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-abe8cb1002abc5f84960",
+              "file": "title-loans-validation.spec.ts",
+              "line": 312,
+              "column": 7
+            },
+            {
+              "title": "City pages have local facts (Anti-Doorway content)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1960,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ City pages have local facts (Anti-Doorway compliant)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:17.117Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-7397f1874e77d993132a",
+              "file": "title-loans-validation.spec.ts",
+              "line": 347,
+              "column": 7
+            },
+            {
+              "title": "City pages have SEO meta tags",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1982,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "⚠️ SEO meta tag warnings: [\n  \u001b[32m'SHORT TITLE: /locations/california/los-angeles-ca'\u001b[39m,\n  \u001b[32m'SHORT TITLE: /locations/california/san-francisco-ca'\u001b[39m,\n  \u001b[32m'SHORT TITLE: /locations/california/san-diego-ca'\u001b[39m,\n  \u001b[32m'SHORT TITLE: /locations/florida/miami-fl'\u001b[39m,\n  \u001b[32m'SHORT TITLE: /locations/florida/tampa-fl'\u001b[39m,\n  \u001b[32m'SHORT TITLE: /locations/florida/jacksonville-fl'\u001b[39m\n]\n"
+                        },
+                        {
+                          "text": "✅ City pages have SEO meta tags\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:19.080Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-803381c78ad0d7009539",
+              "file": "title-loans-validation.spec.ts",
+              "line": 385,
+              "column": 7
+            },
+            {
+              "title": "City pages have schema markup (FinancialService or LocalBusiness)",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 2022,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m6\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m6\u001b[39m\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:433:27",
+                        "location": {
+                          "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                          "column": 27,
+                          "line": 433
+                        },
+                        "snippet": "  431 |       console.log('❌ Schema markup errors:', errors);\n  432 |     }\n> 433 |     expect(errors.length).toBe(0);\n      |                           ^\n  434 |     console.log('✅ City pages have proper schema markup');\n  435 |   });\n  436 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                            "column": 27,
+                            "line": 433
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m6\u001b[39m\n\n  431 |       console.log('❌ Schema markup errors:', errors);\n  432 |     }\n> 433 |     expect(errors.length).toBe(0);\n      |                           ^\n  434 |     console.log('✅ City pages have proper schema markup');\n  435 |   });\n  436 |\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:433:27"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "❌ Schema markup errors: [\n  \u001b[32m'NO SCHEMA: /locations/california/los-angeles-ca'\u001b[39m,\n  \u001b[32m'NO SCHEMA: /locations/california/san-francisco-ca'\u001b[39m,\n  \u001b[32m'NO SCHEMA: /locations/california/san-diego-ca'\u001b[39m,\n  \u001b[32m'NO SCHEMA: /locations/florida/miami-fl'\u001b[39m,\n  \u001b[32m'NO SCHEMA: /locations/florida/tampa-fl'\u001b[39m,\n  \u001b[32m'NO SCHEMA: /locations/florida/jacksonville-fl'\u001b[39m\n]\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:21.065Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Cit-34735-alService-or-LocalBusiness--Desktop-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Cit-34735-alService-or-LocalBusiness--Desktop-Chrome/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Cit-34735-alService-or-LocalBusiness--Desktop-Chrome/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                        "column": 27,
+                        "line": 433
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-d2b02b3c1adf8ebff86f",
+              "file": "title-loans-validation.spec.ts",
+              "line": 411,
+              "column": 7
+            },
+            {
+              "title": "City pages have BreadcrumbList schema",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1994,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "⚠️ Breadcrumb warnings: [\n  \u001b[32m'NO BREADCRUMB: /locations/california/los-angeles-ca'\u001b[39m,\n  \u001b[32m'NO BREADCRUMB: /locations/california/san-francisco-ca'\u001b[39m,\n  \u001b[32m'NO BREADCRUMB: /locations/california/san-diego-ca'\u001b[39m,\n  \u001b[32m'NO BREADCRUMB: /locations/florida/miami-fl'\u001b[39m,\n  \u001b[32m'NO BREADCRUMB: /locations/florida/tampa-fl'\u001b[39m,\n  \u001b[32m'NO BREADCRUMB: /locations/florida/jacksonville-fl'\u001b[39m\n]\n"
+                        },
+                        {
+                          "text": "✅ City pages have BreadcrumbList schema\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:23.357Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-0179faa0357498d4fabe",
+              "file": "title-loans-validation.spec.ts",
+              "line": 437,
+              "column": 7
+            },
+            {
+              "title": "City pages link UP to service pillars",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1977,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "⚠️ Service link warnings: [\n  \u001b[32m'NO SERVICE LINKS: /locations/california/los-angeles-ca'\u001b[39m,\n  \u001b[32m'NO SERVICE LINKS: /locations/california/san-francisco-ca'\u001b[39m,\n  \u001b[32m'NO SERVICE LINKS: /locations/california/san-diego-ca'\u001b[39m,\n  \u001b[32m'NO SERVICE LINKS: /locations/florida/miami-fl'\u001b[39m,\n  \u001b[32m'NO SERVICE LINKS: /locations/florida/tampa-fl'\u001b[39m,\n  \u001b[32m'NO SERVICE LINKS: /locations/florida/jacksonville-fl'\u001b[39m\n]\n"
+                        },
+                        {
+                          "text": "✅ City pages link to service pillars\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:25.434Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-e9de39a1530ee5240408",
+              "file": "title-loans-validation.spec.ts",
+              "line": 456,
+              "column": 7
+            },
+            {
+              "title": "City pages have NAP section (YMYL requirement)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1139,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ City pages have NAP information\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:27.414Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-e52ce684d8c3096067bb",
+              "file": "title-loans-validation.spec.ts",
+              "line": 476,
+              "column": 7
+            },
+            {
+              "title": "No console errors on city pages",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 817,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:521:27",
+                        "location": {
+                          "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                          "column": 27,
+                          "line": 521
+                        },
+                        "snippet": "  519 |       console.log('❌ Console errors found:', errors);\n  520 |     }\n> 521 |     expect(errors.length).toBe(0);\n      |                           ^\n  522 |     console.log('✅ No console errors on city pages');\n  523 |   });\n  524 | });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                            "column": 27,
+                            "line": 521
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n\n  519 |       console.log('❌ Console errors found:', errors);\n  520 |     }\n> 521 |     expect(errors.length).toBe(0);\n      |                           ^\n  522 |     console.log('✅ No console errors on city pages');\n  523 |   });\n  524 | });\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:521:27"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "❌ Console errors found: [\n  \u001b[32m'/locations/california/los-angeles-ca: Failed to load resource: the server responded with a status of 404 (Not Found)'\u001b[39m,\n  \u001b[32m'/locations/california/san-francisco-ca: Failed to load resource: the server responded with a status of 404 (Not Found)'\u001b[39m\n]\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:28.557Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Cit-56c51-onsole-errors-on-city-pages-Desktop-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Cit-56c51-onsole-errors-on-city-pages-Desktop-Chrome/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Cit-56c51-onsole-errors-on-city-pages-Desktop-Chrome/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                        "column": 27,
+                        "line": 521
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-df65d8fa4e44a8ac0c4a",
+              "file": "title-loans-validation.spec.ts",
+              "line": 501,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Static Pages",
+          "file": "title-loans-validation.spec.ts",
+          "line": 529,
+          "column": 6,
+          "specs": [
+            {
+              "title": "About page loads (200)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 723,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ About page loads (200)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:29.633Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-142e425bd4f5641b6889",
+              "file": "title-loans-validation.spec.ts",
+              "line": 530,
+              "column": 7
+            },
+            {
+              "title": "Contact page loads (200)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 701,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Contact page loads (200)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:30.449Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-087cd90f9eb6a454d52b",
+              "file": "title-loans-validation.spec.ts",
+              "line": 536,
+              "column": 7
+            },
+            {
+              "title": "Apply page loads (200)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 811,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Apply page loads (200)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:31.154Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-c7b5c29b97ea3de0dcc6",
+              "file": "title-loans-validation.spec.ts",
+              "line": 542,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "YMYL Compliance (Title Loans = Financial)",
+          "file": "title-loans-validation.spec.ts",
+          "line": 552,
+          "column": 6,
+          "specs": [
+            {
+              "title": "City pages have state compliance information",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 842,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ City pages have compliance information\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:31.969Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-8ef9c3c1dfb0a0bb405a",
+              "file": "title-loans-validation.spec.ts",
+              "line": 553,
+              "column": 7
+            },
+            {
+              "title": "City pages have YMYL disclaimers",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 529,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ YMYL disclaimers present\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:32.815Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-257edcde239852c6649e",
+              "file": "title-loans-validation.spec.ts",
+              "line": 582,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Navigation & Links",
+          "file": "title-loans-validation.spec.ts",
+          "line": 602,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Header is visible on all pages",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2089,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Header present on all pages\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:33.348Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-b713562f7a36d75ef0b0",
+              "file": "title-loans-validation.spec.ts",
+              "line": 603,
+              "column": 7
+            },
+            {
+              "title": "Footer is visible on all pages",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2126,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Footer present on all pages\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:35.442Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-7fb471ba40ee3b5c830d",
+              "file": "title-loans-validation.spec.ts",
+              "line": 615,
+              "column": 7
+            },
+            {
+              "title": "No broken internal links (sample)",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5062,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m5\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m5\u001b[39m\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:656:27",
+                        "location": {
+                          "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                          "column": 27,
+                          "line": 656
+                        },
+                        "snippet": "  654 |       console.log('❌ Broken links:', errors);\n  655 |     }\n> 656 |     expect(errors.length).toBe(0);\n      |                           ^\n  657 |     console.log(`✅ No broken links (tested ${uniqueHrefs.size} unique links)`);\n  658 |   });\n  659 | });"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                            "column": 27,
+                            "line": 656
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m5\u001b[39m\n\n  654 |       console.log('❌ Broken links:', errors);\n  655 |     }\n> 656 |     expect(errors.length).toBe(0);\n      |                           ^\n  657 |     console.log(`✅ No broken links (tested ${uniqueHrefs.size} unique links)`);\n  658 |   });\n  659 | });\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:656:27"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "❌ Broken links: [\n  \u001b[32m'404: /faq'\u001b[39m,\n  \u001b[32m'404: /privacy'\u001b[39m,\n  \u001b[32m'404: /terms'\u001b[39m,\n  \u001b[32m'404: /disclaimers'\u001b[39m,\n  \u001b[32m'404: /licenses'\u001b[39m\n]\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:37.572Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Nav-a7ec2-oken-internal-links-sample--Desktop-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Nav-a7ec2-oken-internal-links-sample--Desktop-Chrome/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Nav-a7ec2-oken-internal-links-sample--Desktop-Chrome/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                        "column": 27,
+                        "line": 656
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-8b445a772eb319084f04",
+              "file": "title-loans-validation.spec.ts",
+              "line": 627,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Mobile Responsiveness",
+          "file": "title-loans-validation.spec.ts",
+          "line": 664,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Homepage is mobile responsive",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 560,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ Homepage responsive on mobile (375x667)\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:42.973Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-70f636e47b0bfd33dfbe",
+              "file": "title-loans-validation.spec.ts",
+              "line": 665,
+              "column": 7
+            },
+            {
+              "title": "City page is mobile responsive",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 542,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✅ City page responsive on mobile\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:43.619Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-522b89fded4d4034973c",
+              "file": "title-loans-validation.spec.ts",
+              "line": 677,
+              "column": 7
+            },
+            {
+              "title": "Click-to-call is visible and tappable on mobile",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Desktop Chrome",
+                  "projectName": "Desktop Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5581,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('a[href^=\"tel:\"]').first()\nExpected: visible\nReceived: hidden\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('a[href^=\"tel:\"]').first()\u001b[22m\n\u001b[2m    9 × locator resolved to <a href=\"tel:+18005551234\" class=\"text-slate-600 hover:text-amber-500 transition-colors\">Call Now: (800) 555-1234</a>\u001b[22m\n\u001b[2m      - unexpected value \"hidden\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('a[href^=\"tel:\"]').first()\nExpected: visible\nReceived: hidden\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('a[href^=\"tel:\"]').first()\u001b[22m\n\u001b[2m    9 × locator resolved to <a href=\"tel:+18005551234\" class=\"text-slate-600 hover:text-amber-500 transition-colors\">Call Now: (800) 555-1234</a>\u001b[22m\n\u001b[2m      - unexpected value \"hidden\"\u001b[22m\n\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:692:29",
+                        "location": {
+                          "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                          "column": 29,
+                          "line": 692
+                        },
+                        "snippet": "  690 |\n  691 |     const phoneLink = page.locator('a[href^=\"tel:\"]').first();\n> 692 |     await expect(phoneLink).toBeVisible();\n      |                             ^\n  693 |\n  694 |     // Check size\n  695 |     const box = await phoneLink.boundingBox();"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                            "column": 29,
+                            "line": 692
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('a[href^=\"tel:\"]').first()\nExpected: visible\nReceived: hidden\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('a[href^=\"tel:\"]').first()\u001b[22m\n\u001b[2m    9 × locator resolved to <a href=\"tel:+18005551234\" class=\"text-slate-600 hover:text-amber-500 transition-colors\">Call Now: (800) 555-1234</a>\u001b[22m\n\u001b[2m      - unexpected value \"hidden\"\u001b[22m\n\n\n  690 |\n  691 |     const phoneLink = page.locator('a[href^=\"tel:\"]').first();\n> 692 |     await expect(phoneLink).toBeVisible();\n      |                             ^\n  693 |\n  694 |     // Check size\n  695 |     const box = await phoneLink.boundingBox();\n    at /Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts:692:29"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-02T15:16:44.166Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Mob-bced0-ible-and-tappable-on-mobile-Desktop-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Mob-bced0-ible-and-tappable-on-mobile-Desktop-Chrome/error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/valerazatler/Developer/nextjs9/title-loans-site/test-results/title-loans-validation-Mob-bced0-ible-and-tappable-on-mobile-Desktop-Chrome/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/valerazatler/Developer/nextjs9/title-loans-site/tests/title-loans-validation.spec.ts",
+                        "column": 29,
+                        "line": 692
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d4a189e69a705f8d427-865fa7d05bdce5fedc67",
+              "file": "title-loans-validation.spec.ts",
+              "line": 687,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-12-02T15:15:59.391Z",
+    "duration": 50413.335,
+    "expected": 27,
+    "skipped": 0,
+    "unexpected": 10,
+    "flaky": 0
+  }
+}

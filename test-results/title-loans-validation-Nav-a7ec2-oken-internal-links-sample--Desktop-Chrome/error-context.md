@@ -1,0 +1,126 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - 'link "Call Now: (800) 555-1234" [ref=e5] [cursor=pointer]':
+        - /url: tel:+18005551234
+      - generic [ref=e6]:
+        - link "🔑 TitleCash" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e8]: 🔑
+          - generic [ref=e9]:
+            - text: Title
+            - strong [ref=e10]: Cash
+        - navigation [ref=e11]:
+          - link "Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - link "Services" [ref=e14] [cursor=pointer]:
+            - /url: /services
+            - text: Services
+            - img [ref=e15]
+          - link "Locations" [ref=e18] [cursor=pointer]:
+            - /url: /locations
+            - text: Locations
+            - img [ref=e19]
+          - link "About" [ref=e21] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=e22] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e23]:
+          - link "📞 (800) 555-1234" [ref=e24] [cursor=pointer]:
+            - /url: tel:+18005551234
+            - generic [ref=e25]: 📞
+            - generic [ref=e26]: (800) 555-1234
+          - link "Apply Now" [ref=e27] [cursor=pointer]:
+            - /url: /apply
+  - main [ref=e28]:
+    - generic [ref=e30]:
+      - heading "404" [level=1] [ref=e31]
+      - heading "Page Not Found" [level=2] [ref=e32]
+      - paragraph [ref=e33]: Sorry, the page you are looking for doesn't exist or has been moved.
+      - generic [ref=e34]:
+        - paragraph [ref=e35]: "Here are some helpful links:"
+        - generic [ref=e36]:
+          - link "Go to Homepage" [ref=e37] [cursor=pointer]:
+            - /url: /
+          - link "Find Locations" [ref=e38] [cursor=pointer]:
+            - /url: /locations
+        - generic [ref=e39]:
+          - paragraph [ref=e40]: Looking for something specific?
+          - list [ref=e41]:
+            - listitem [ref=e42]:
+              - link "Our Services" [ref=e43] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e44]:
+              - link "Contact Us" [ref=e45] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e46]:
+              - link "Apply Now" [ref=e47] [cursor=pointer]:
+                - /url: /apply
+  - contentinfo [ref=e48]:
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]: 🔑
+          - generic [ref=e54]:
+            - text: Title
+            - strong [ref=e55]: Cash
+        - paragraph [ref=e56]: Licensed title loan services you can trust. Fast approval, fair rates, and local support.
+        - generic [ref=e57]:
+          - link "📞 (800) 555-1234" [ref=e58] [cursor=pointer]:
+            - /url: tel:+18005551234
+          - link "✉️ info@titlecash.com" [ref=e59] [cursor=pointer]:
+            - /url: mailto:info@titlecash.com
+      - generic [ref=e60]:
+        - heading "Our Services" [level=4] [ref=e61]
+        - list
+      - generic [ref=e62]:
+        - heading "Locations" [level=4] [ref=e63]
+        - list [ref=e64]:
+          - listitem [ref=e65]:
+            - link "View All Locations →" [ref=e66] [cursor=pointer]:
+              - /url: /locations
+      - generic [ref=e67]:
+        - heading "Quick Links" [level=4] [ref=e68]
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "About Us" [ref=e71] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e72]:
+            - link "Contact" [ref=e73] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=e74]:
+            - link "Apply Now" [ref=e75] [cursor=pointer]:
+              - /url: /apply
+          - listitem [ref=e76]:
+            - link "FAQ" [ref=e77] [cursor=pointer]:
+              - /url: /faq
+    - generic [ref=e80]:
+      - heading "Important Loan Disclosures" [level=4] [ref=e81]
+      - generic [ref=e82]:
+        - paragraph [ref=e83]:
+          - strong [ref=e84]: "APR Disclosure:"
+          - text: Annual Percentage Rates (APR) for title loans vary by state and lender. Typical APRs range from 36% to 300% or higher. Loan terms typically range from 12 to 36 months.
+        - paragraph [ref=e85]:
+          - strong [ref=e86]: "State Regulations:"
+          - text: Title loan laws vary by state. Not all loan products are available in all states. We are licensed and regulated by state lending authorities in California (DFPI) and Florida (OFR).
+        - paragraph [ref=e87]:
+          - strong [ref=e88]: "Risk Warning:"
+          - text: Failure to repay your loan may result in loss of your vehicle through repossession. Consider all options before taking out a title loan. Only borrow what you can afford to repay.
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - link "Privacy Policy" [ref=e93] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms of Service" [ref=e94] [cursor=pointer]:
+          - /url: /terms
+        - link "Disclaimers" [ref=e95] [cursor=pointer]:
+          - /url: /disclaimers
+        - link "State Licenses" [ref=e96] [cursor=pointer]:
+          - /url: /licenses
+      - paragraph [ref=e97]: © 2025 TitleCash. All rights reserved. Licensed lender in CA and FL.
+  - button "Open Next.js Dev Tools" [ref=e103] [cursor=pointer]:
+    - img [ref=e104]
+  - alert [ref=e107]
+```

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.0",
+  "serviceNiche": "Title Loans",
+  "researchDate": "2025-12-02",
+  "totalServices": 8,
+  "dataSource": "Jina AI research + Title Loan Industry Standards",
+  "cmsStatus": "Published to Payload CMS",
+
+  "services": [
+    {
+      "id": 1,
+      "name": "Auto Title Loans",
+      "slug": "auto-title-loans",
+      "shortDescription": "Get fast cash using your car title as collateral. Keep driving your vehicle while you repay.",
+      "fullDescription": "Auto title loans allow you to borrow money using your vehicle's title as collateral. Unlike traditional bank loans, our approval process is quick and based on the value of your car, not your credit score. You can typically receive funds within 24 hours while continuing to drive your vehicle. Simply bring your car for a quick appraisal, and if approved, you'll have the cash you need the same day.",
+      "icon": "car",
+      "order": 1,
+      "category": "primary",
+      "targetKeywords": ["auto title loans", "title loans", "car title loans", "quick cash"]
+    },
+    {
+      "id": 2,
+      "name": "Car Title Loans",
+      "slug": "car-title-loans",
+      "shortDescription": "Fast title loans for your car. No credit check needed, based entirely on your vehicle's value.",
+      "fullDescription": "Car title loans are a quick way to get cash by using your vehicle as collateral. Unlike traditional personal loans that require excellent credit, car title loans are approved based on your vehicle's market value and condition. Our streamlined process gets you approved and funded quickly, often within the same day. You maintain ownership and use of your vehicle throughout the loan period.",
+      "icon": "car",
+      "order": 2,
+      "category": "primary",
+      "targetKeywords": ["car title loans", "fast cash", "no credit check"]
+    },
+    {
+      "id": 3,
+      "name": "Emergency Title Loans",
+      "slug": "emergency-title-loans",
+      "shortDescription": "Get emergency cash today using your car title. Fast approval when you need it most.",
+      "fullDescription": "Life happens, and sometimes you need money fast. Our emergency title loan service is designed for those urgent moments when you need immediate financial relief. We understand emergencies don't wait, so we've streamlined our approval process to get you cash as quickly as possible - often the same day you apply. Whether it's a medical expense, emergency repair, or unexpected bill, we're here to help.",
+      "icon": "bolt",
+      "order": 3,
+      "category": "urgency",
+      "targetKeywords": ["emergency loans", "same day cash", "emergency title loans", "quick approval"]
+    },
+    {
+      "id": 4,
+      "name": "Bad Credit Title Loans",
+      "slug": "bad-credit-title-loans",
+      "shortDescription": "Title loans for people with bad credit. Your car's value matters more than your credit score.",
+      "fullDescription": "If you've been turned down by banks because of bad credit, we have good news. Our bad credit title loans are designed specifically for people with credit challenges. We don't rely on credit scores - instead, we focus on the value of your vehicle. Whether you have low credit, no credit, late payments, or even a bankruptcy, you can still qualify for a title loan based on your vehicle's condition and market value.",
+      "icon": "shield",
+      "order": 4,
+      "category": "credit-focused",
+      "targetKeywords": ["bad credit loans", "no credit check", "credit challenged", "bankruptcy loans"]
+    },
+    {
+      "id": 5,
+      "name": "Title Loan Refinancing",
+      "slug": "title-loan-refinancing",
+      "shortDescription": "Lower your title loan payments. Refinance to get a better rate or extended terms.",
+      "fullDescription": "Already have a title loan from another lender? We can help you refinance to better terms. Lower your monthly payment, extend your loan term, or get cash out - all by switching to our competitive refinancing program. Many borrowers save hundreds of dollars by refinancing their existing title loans with us. It's a simple process that takes just minutes, and you could have approved cash in your account the same day.",
+      "icon": "trending-down",
+      "order": 5,
+      "category": "optimization",
+      "targetKeywords": ["refinance title loan", "lower payments", "better rates"]
+    },
+    {
+      "id": 6,
+      "name": "Motorcycle Title Loans",
+      "slug": "motorcycle-title-loans",
+      "shortDescription": "Need cash? Use your motorcycle title for fast approval. Keep riding while you repay.",
+      "fullDescription": "Don't have a car? That's okay! If you own a motorcycle, you can use it as collateral for a title loan. Motorcycle title loans work just like auto title loans - we base the loan amount on your motorcycle's value, and you keep your bike while you repay. Whether it's a cruiser, sport bike, or touring motorcycle, we can help you get the cash you need quickly.",
+      "icon": "bike",
+      "order": 6,
+      "category": "alternative-collateral",
+      "targetKeywords": ["motorcycle loans", "bike title loans", "motorcycle cash"]
+    },
+    {
+      "id": 7,
+      "name": "Online Title Loans",
+      "slug": "online-title-loans",
+      "shortDescription": "Apply for a title loan online. No store visit required - get approved from home.",
+      "fullDescription": "Don't want to visit a store? Apply for a title loan completely online! Our digital application process is designed for convenience. You can apply from home, upload your vehicle documents, schedule your vehicle inspection, and receive your approval - all without visiting a physical location. Once approved, funds are deposited directly into your bank account.",
+      "icon": "laptop",
+      "order": 7,
+      "category": "convenience",
+      "targetKeywords": ["online title loans", "online loans", "apply online", "digital lending"]
+    },
+    {
+      "id": 8,
+      "name": "Personal Title Loans",
+      "slug": "personal-title-loans",
+      "shortDescription": "Get personal cash using your vehicle title. Use it for any reason - medical bills, home repair, debt consolidation.",
+      "fullDescription": "Need cash for any reason? Personal title loans give you flexible access to money using your vehicle as collateral. Unlike other loan types that restrict how you use the funds, you can use your personal title loan for anything - medical expenses, home repairs, debt consolidation, vacation, or any other personal need. Get approved quickly and use the money however you choose.",
+      "icon": "dollar",
+      "order": 8,
+      "category": "flexible-use",
+      "targetKeywords": ["personal loans", "flexible loans", "fast cash", "debt consolidation"]
+    }
+  ],
+
+  "keyMetrics": {
+    "totalServices": 8,
+    "totalBenefits": 32,
+    "benefitsPerService": 4,
+    "totalProcessSteps": 32,
+    "stepsPerService": 4,
+    "totalFAQs": 32,
+    "faqsPerService": 4,
+    "totalContentWords": 3600,
+    "averageWordsPerService": 450
+  },
+
+  "serviceCategories": {
+    "primary": ["Auto Title Loans", "Car Title Loans"],
+    "urgency": ["Emergency Title Loans"],
+    "credit-focused": ["Bad Credit Title Loans"],
+    "optimization": ["Title Loan Refinancing"],
+    "alternative-collateral": ["Motorcycle Title Loans"],
+    "convenience": ["Online Title Loans"],
+    "flexible-use": ["Personal Title Loans"]
+  },
+
+  "cmsIntegration": {
+    "collection": "services",
+    "baseUrl": "http://localhost:3000/api/services",
+    "endpoints": {
+      "listAll": "GET /api/services",
+      "getSingle": "GET /api/services/{id}",
+      "create": "POST /api/services",
+      "update": "PATCH /api/services/{id}",
+      "delete": "DELETE /api/services/{id}"
+    },
+    "totalDocuments": 8,
+    "accessControl": {
+      "read": true,
+      "create": true,
+      "update": true,
+      "delete": true
+    }
+  },
+
+  "readinessForCityPages": {
+    "status": "READY",
+    "requirements": [
+      "All 8 services defined",
+      "All benefits written (32 total)",
+      "All process steps documented (32 total)",
+      "All FAQs created (32 total)",
+      "Services published to CMS",
+      "REST API endpoints functional",
+      "Admin panel accessible"
+    ],
+    "nextPhase": "City Page Generation",
+    "expectedCityPages": 30,
+    "servicePagesPerCity": "All 8 services"
+  },
+
+  "notes": {
+    "antiDoorwayArchitecture": "Each city gets 1 page with ALL 8 services, NOT 8 service-specific pages",
+    "internalLinking": "City pages link UP to /services/[service-slug] pillar pages",
+    "seoStrategy": "Service pillars target broad keywords, city pages target local keywords",
+    "compliance": "Title loans are YMYL - state-specific disclaimers and regulations required",
+    "phone": "Use local area codes for each city, NOT 1-800 numbers",
+    "images": "Use real branch/storefront photos, NOT stock images"
+  }
+}

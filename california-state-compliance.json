@@ -1,0 +1,150 @@
+{
+  "state": "California",
+  "stateCode": "CA",
+  "slug": "california",
+  "lastUpdated": "2025-12-02",
+  "lastVerified": "2025-12-02",
+  "researchSources": [
+    "California Department of Financial Protection and Innovation (DFPI)",
+    "DFPI Automobile Title Loan Consumer Advisory",
+    "California Financing Law (Financial Code Division 9)",
+    "California Assembly Banking & Finance Committee Reports"
+  ],
+  "legalStatus": {
+    "isLegal": true,
+    "loanTypeAllowed": "Title Loans (Regulated under California Financing Law)",
+    "restrictions": "Subject to California Financing Law; Must be licensed by DFPI",
+    "notes": "California allows title loans but has strict consumer protections. For loans under $2,500, rates are capped. For loans $2,500+, there is NO APR cap, resulting in typical rates of 90-180% APR."
+  },
+  "regulations": {
+    "maxLoanAmount": "No state limit (typically $2,500-$10,000 depending on license type)",
+    "minLoanAmount": "$300 (for small dollar pilot program)",
+    "maxAPR": "Under $2,500: 12-30% depending on principal amount; $2,500+: NO CAP (typically 90-180% APR)",
+    "maxLoanTerm": "No state limit",
+    "minLoanTerm": "No state minimum",
+    "allowsRollover": false,
+    "rolloverLimit": "Prohibited for certain loan types",
+    "coolingOffPeriod": "2 business days (right to rescind certain loans)",
+    "paymentPlanRequired": false,
+    "databaseRequired": false,
+    "loanToValueRatio": "Typically 50% of wholesale vehicle value (industry practice, not statutory)"
+  },
+  "fees": {
+    "maxOriginationFee": "For loans under $2,500: Lesser of 5% of principal or $50; For $2,500+: No cap but must be disclosed",
+    "maxLatePaymentFee": "5% of payment amount",
+    "maxNSFFee": "$15 maximum",
+    "maxPrepaymentPenalty": "None - prepayment penalties prohibited",
+    "otherFees": "Administrative fees and charges must be fully disclosed; For loans $2,500+, fees generally uncapped"
+  },
+  "licensing": {
+    "required": true,
+    "licenseType": "California Financing Law (CFL) License",
+    "regulatoryBody": "Department of Financial Protection and Innovation (DFPI)",
+    "regulatoryUrl": "https://dfpi.ca.gov",
+    "verificationUrl": "https://portal.dfpi.ca.gov/csp?id=ssp_license_search",
+    "minimumNetWorth": "$25,000",
+    "surettyBond": "$25,000",
+    "backgroundCheckRequired": true,
+    "notes": "Principals cannot have criminal history or non-compliance with regulatory requirements"
+  },
+  "consumerProtections": {
+    "rightToRescind": {
+      "available": true,
+      "period": "2 business days for certain loans",
+      "notes": "Borrower can cancel certain loans within 2 business days of signing without penalty"
+    },
+    "requiredDisclosures": [
+      "Amount borrowed",
+      "Total dollar cost of loan (principal + interest + fees)",
+      "Annual percentage rate (APR)",
+      "Periodic payment amount",
+      "Delinquency fee schedule",
+      "Statement about early payoff benefits and no prepayment penalty",
+      "Statement about right to rescind (where applicable)",
+      "License number and DFPI contact information"
+    ],
+    "disclosureRequirements": {
+      "minimumFontSize": "12-point",
+      "languageRequirement": "Must be in the language in which loan was negotiated",
+      "timing": "At time of application, before signing"
+    },
+    "prohibitedPractices": [
+      "Charging more than legal limits (for loans under $2,500)",
+      "Threatening criminal prosecution for non-payment",
+      "Misrepresenting loan terms",
+      "Wage garnishment without court order",
+      "Unfair or deceptive dealing",
+      "Requiring waiver of borrower rights"
+    ],
+    "collectionRules": {
+      "canRepossess": true,
+      "repossessionNotice": "Notice of Seizure within 48 hours of repossession",
+      "noticeBeforeSale": "At least 15 days written notice before vehicle auction",
+      "personalPropertyRights": "Borrower has 60 days to retrieve personal items from vehicle",
+      "deficiencyBalance": "Lender can pursue deficiency judgment after vehicle sale",
+      "gracePeriod": "No legally required grace period before repossession",
+      "peacefulRepossession": "Repo agents cannot breach the peace or enter locked property without permission"
+    },
+    "remoteShutdownDevices": {
+      "allowed": true,
+      "disclosureRequired": true,
+      "notes": "Lenders may use remote engine shutdown devices and GPS tracking but must disclose this"
+    },
+    "fairDealingRequirement": "Even when interest rates are not capped, lenders must deal fairly and honestly with borrowers"
+  },
+  "recentChanges": [
+    {
+      "date": "2013",
+      "change": "SB 318 established Pilot Program for Increased Access to Responsible Small Dollar Loans",
+      "source": "California Legislature"
+    },
+    {
+      "date": "2010",
+      "change": "SB 1146 created Pilot Program for Affordable Credit-Building Opportunities",
+      "source": "California Legislature"
+    }
+  ],
+  "cityPageContent": {
+    "headline": "Understanding Title Loan Laws in California",
+    "intro": "Residents of {{city}} are protected by California's consumer lending regulations administered by the Department of Financial Protection and Innovation (DFPI).",
+    "keyPoints": [
+      "California allows title loans through licensed lenders under the California Financing Law",
+      "For loans under $2,500, interest rates are capped at 12-30% depending on loan amount",
+      "For loans $2,500 and above (nearly all title loans), there is NO state APR cap - rates typically range from 90-180% APR or higher",
+      "All lenders must be licensed by DFPI - verify at portal.dfpi.ca.gov before signing",
+      "You have the right to full disclosure of all costs in clear 12-point font or larger",
+      "You have the right to pay off your loan early without penalty, reducing interest costs",
+      "If your vehicle is repossessed, you must receive written notice and have 15 days before the lender can sell it",
+      "You have 60 days to retrieve personal items from your repossessed vehicle",
+      "DFPI warns: Title loans should be a LAST RESORT option - explore alternatives first"
+    ],
+    "warnings": [
+      "WARNING: For almost all auto title loans in California, the interest rate can be extremely high (90-180% APR or more) because loans are typically made for $2,500 or more, which have no interest rate cap",
+      "Few assets are more important to your financial security than your car - you risk losing it if you default",
+      "Consider alternatives: employer paycheck advance, credit union short-term loan, asking creditors for more time, borrowing from family"
+    ],
+    "disclaimer": "This information is for general guidance only and may not reflect the most current legal developments. California title loans are regulated by the Department of Financial Protection and Innovation (DFPI) under the California Financing Law. Laws and regulations change frequently. DFPI strongly urges consumers to exercise great care before taking out an auto title loan and to try other options first. This should be considered a loan product of last resort. Consult with a licensed attorney or contact DFPI at dfpi.ca.gov for the most accurate and up-to-date information."
+  },
+  "metaData": {
+    "metaTitle": "Title Loans in California | DFPI Regulations & Consumer Protections",
+    "metaDescription": "California title loans regulated by DFPI. Learn about APR caps, consumer protections, licensing requirements, and your rights under California Financing Law.",
+    "keywords": [
+      "California title loans",
+      "DFPI",
+      "California Financing Law",
+      "CFL license",
+      "title loan regulations California",
+      "car title loan California",
+      "California consumer protection",
+      "title loan APR California"
+    ]
+  },
+  "statistics": {
+    "yearReported": 2011,
+    "totalTitleLoans": 38148,
+    "totalUnsecuredLoans": 381131,
+    "averageAPR": "90-180% for loans $2,500+",
+    "percentageAbove2500": "99.99% (virtually all title loans)",
+    "notes": "Data from California Assembly Banking & Finance Committee reports"
+  }
+}

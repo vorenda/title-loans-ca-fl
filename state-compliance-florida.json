@@ -1,0 +1,129 @@
+{
+  "state": "Florida",
+  "stateCode": "FL",
+  "slug": "florida",
+  "serviceNiche": "Title Loans",
+  "lastUpdated": "2025-12-02",
+  "lastVerified": "2025-12-02",
+  "researchSources": [
+    "Florida Statutes Chapter 537 - Title Loan Act",
+    "Florida Statutes Chapter 516 - Consumer Finance",
+    "Florida Office of Financial Regulation (OFR)",
+    "Florida Attorney General Consumer Protection Division",
+    "Consumer Federation of America - Car Title Loan Regulation Chart"
+  ],
+
+  "legalStatus": {
+    "isLegal": true,
+    "loanTypeAllowed": "Title Loans (Regulated under Ch. 537 and Ch. 516)",
+    "restrictions": "Must be licensed by Florida Office of Financial Regulation; Subject to strict interest rate caps and consumer protection requirements",
+    "notes": "Florida has two regulatory frameworks for title loans: Chapter 537 (Title Loan Act) provides stronger consumer protections including mandatory notices and surplus return. Chapter 516 (Consumer Finance) applies to larger loans but has fewer specific repossession protections."
+  },
+
+  "regulations": {
+    "maxLoanAmount": "Up to $25,000 under Ch. 516; No statutory maximum under Ch. 537 (based on vehicle value)",
+    "minLoanAmount": "No state minimum",
+    "maxAPR": "30% per annum on first $2,000; 24% per annum on $2,000-$3,000; 18% per annum on amounts over $3,000",
+    "maxLoanTerm": "30 days original term (may be extended in 30-day periods by mutual consent)",
+    "minLoanTerm": "No state minimum",
+    "allowsRollover": true,
+    "rolloverLimit": "No limit, but extensions must be by mutual consent; interest rate on extensions cannot exceed original loan rate",
+    "coolingOffPeriod": "None required",
+    "paymentPlanRequired": false,
+    "databaseRequired": false,
+    "interestCalculation": "Simple interest only (not add-on interest); monthly rate computed as 1/12 of annual rate",
+    "capitalizedInterest": "Prohibited - lenders cannot capitalize unpaid interest in extension agreements"
+  },
+
+  "fees": {
+    "maxOriginationFee": "$25 for credit investigation (Ch. 516)",
+    "maxLatePaymentFee": "$15 per monthly payment after 10 days default; $7.50 for semimonthly payments; $5-$7.50 for biweekly payments",
+    "maxNSFFee": "Greater of $20 or actual charge from depository institution",
+    "maxPrepaymentPenalty": "None - prepayment without penalty is a right",
+    "otherFees": "Documentary excise tax; filing/recording fees to public officers; title insurance; appraisal fees (if secured by real property); reasonable attorney fees and court costs if determined by court; actual and reasonable repossession, storage, repair and sale expenses"
+  },
+
+  "licensing": {
+    "required": true,
+    "licenseType": "Title Loan Lender License (Ch. 537) or Consumer Finance License (Ch. 516)",
+    "regulatoryBody": "Florida Office of Financial Regulation (OFR)",
+    "regulatoryUrl": "https://www.flofr.gov",
+    "verificationUrl": "https://www.flofr.gov/education/verify-a-license",
+    "contactPhone": "(850) 487-9687",
+    "complaintUrl": "https://www.flofr.gov/enforcement/submit-a-complaint-or-tip"
+  },
+
+  "consumerProtections": {
+    "rightToRescind": {
+      "available": false,
+      "period": "N/A",
+      "notes": "No statutory right to cancel after signing (unlike some other states)"
+    },
+    "requiredDisclosures": [
+      "Amount financed (principal loan amount)",
+      "Interest rate and annual percentage rate (APR)",
+      "Payment schedule and due dates",
+      "Total amount to be repaid (principal + interest + fees)",
+      "Lender's right to repossess vehicle if loan not repaid",
+      "Borrower's right to surplus proceeds after vehicle sale",
+      "Lender's obligation to notify before repossession (Ch. 537)",
+      "10-day notice requirement before vehicle sale (Ch. 537)",
+      "Truth in Lending Act (TILA) disclosures",
+      "Lender's license number and OFR contact information"
+    ],
+    "prohibitedPractices": [
+      "Charging interest above statutory limits (violates usury law Ch. 687)",
+      "Capitalizing unpaid interest in extension agreements",
+      "Charging annual percentage rate above federal Truth in Lending Act calculation",
+      "Threatening criminal prosecution for non-payment (civil debt only)",
+      "Repossessing without reasonable notice (Ch. 537)",
+      "Failing to return personal property or surplus proceeds",
+      "Operating without valid OFR license",
+      "Using deceptive or misleading advertising"
+    ],
+    "collectionRules": {
+      "canRepossess": true,
+      "repossessionNotice": "Notice of intent to repossess required under Ch. 537; borrower has opportunity to voluntarily surrender vehicle",
+      "deficiencyBalance": "May pursue deficiency balance under Ch. 516; Limited or prohibited under Ch. 537 depending on circumstances",
+      "gracePeriod": "No statutory grace period before repossession (may begin after one missed payment depending on contract)",
+      "personalPropertyReturn": "Lender must inventory personal items, store for 45 days, and provide instructions for recovery",
+      "saleNotice": "10 days advance written notice of sale time, place, and accounting of amount owed (Ch. 537)",
+      "surplusReturn": "Within 30 days after sale, lender must return proceeds exceeding loan balance, interest, and reasonable repossession/sale expenses",
+      "rightToReclaim": "Borrower can reclaim vehicle before sale by paying loan balance plus reasonable repossession and storage costs"
+    }
+  },
+
+  "recentChanges": [
+    {
+      "date": "2025",
+      "change": "Florida continues to maintain strict consumer protection framework under Ch. 537",
+      "source": "Florida Office of Financial Regulation annual review"
+    }
+  ],
+
+  "keyStatistics": {
+    "comparedToOtherStates": "Florida has moderate restrictions compared to other states. The 30% APR cap is significantly lower than states like Texas (no cap) but higher than states like California (30% with additional restrictions). Florida's Chapter 537 provides strong consumer protections including mandatory repossession notices and surplus return requirements.",
+    "regulatoryStrength": "Moderate to Strong - Two-tier regulatory system with stronger protections under Ch. 537"
+  },
+
+  "cityPageContent": {
+    "headline": "Understanding Title Loan Laws in Florida",
+    "intro": "Residents of {{city}}, Florida are protected by state lending regulations under Chapter 537 (Title Loan Act) and Chapter 516 (Consumer Finance) of the Florida Statutes, administered by the Florida Office of Financial Regulation.",
+    "keyPoints": [
+      "Florida caps title loan interest at 30% per year on the first $2,000 borrowed (significantly lower than many states)",
+      "All title lenders must be licensed by the Florida Office of Financial Regulation - verify at www.flofr.gov",
+      "Lenders must provide written agreements with clear disclosure of loan amount, interest rate, and repayment terms",
+      "Under Chapter 537, lenders must notify you before repossessing your vehicle and give you opportunity to surrender it voluntarily",
+      "You have the right to reclaim your vehicle before sale by paying what you owe plus reasonable expenses",
+      "Lenders must give you 10 days written notice before selling your repossessed vehicle",
+      "Any surplus from the vehicle sale (after paying loan, interest, and expenses) must be returned to you within 30 days",
+      "You have the right to prepay your loan early without penalty",
+      "Personal belongings left in your vehicle must be stored for 45 days and returned to you",
+      "Charging interest above Florida's legal limits may void the loan or require refund of excess interest"
+    ],
+    "comparisonToOtherStates": "Florida's 30% APR cap on title loans is significantly more protective than states like Texas (no cap), Nevada (no cap), or Utah (no cap), but similar to states like Virginia (22% on first $700) and Tennessee (tiered rates). Florida's Chapter 537 provides stronger repossession protections than many states, including mandatory notices and surplus return requirements.",
+    "localRelevance": "Title loan lenders operating in {{city}} must comply with Florida state law regardless of where they are headquartered. If you're considering a title loan in {{city}}, make sure the lender is licensed by the Florida Office of Financial Regulation. You can verify a lender's license by calling (850) 487-9687 or visiting www.flofr.gov. The {{county}} area is subject to the same statewide consumer protection laws.",
+    "whenToConsult": "Before signing a title loan agreement in {{city}}, consider consulting with a consumer protection attorney or financial counselor. Free resources are available through Florida Legal Services and local community organizations. If you believe a lender has violated Florida law, file a complaint with the Florida Office of Financial Regulation at www.flofr.gov or the Florida Attorney General at 1-866-9-NO-SCAM.",
+    "disclaimer": "This information is for general educational purposes only and may not reflect the most current legal developments. Laws and regulations change frequently. Florida title loans are regulated under Chapter 537 (Title Loan Act) and Chapter 516 (Consumer Finance) of the Florida Statutes and are supervised by the Florida Office of Financial Regulation. This information does not constitute legal advice. For the most accurate and up-to-date information specific to your situation, consult with a licensed Florida attorney or contact the Florida Office of Financial Regulation at www.flofr.gov or (850) 487-9687."
+  }
+}

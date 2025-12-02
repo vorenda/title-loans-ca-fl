@@ -1,0 +1,351 @@
+{
+  "mode": "local",
+  "serviceArea": {
+    "name": "California",
+    "type": "state"
+  },
+  "totalLocations": 10,
+  "generatedAt": "2025-12-02T14:38:37.739Z",
+  "locations": [
+    {
+      "id": 12,
+      "city": "Los Angeles",
+      "state": "California",
+      "stateCode": "CA",
+      "county": "Los Angeles County",
+      "slug": "los-angeles-city-ca",
+      "areaCode": "213",
+      "population": 3900000,
+      "latitude": 34.0522,
+      "longitude": -118.2437,
+      "localFacts": {
+        "landmarks": [
+          "Hollywood Sign",
+          "Griffith Observatory",
+          "Santa Monica Pier"
+        ],
+        "highways": [
+          "I-5",
+          "I-10",
+          "US-101"
+        ],
+        "exits": [
+          "I-10 Exit 137 - Downtown LA",
+          "I-5 Exit 82 - Hollywood"
+        ],
+        "neighboringCities": [
+          "Pasadena",
+          "Glendale",
+          "Santa Monica",
+          "Long Beach"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "city": "San Diego",
+      "state": "California",
+      "stateCode": "CA",
+      "county": "San Diego County",
+      "slug": "san-diego-ca",
+      "areaCode": "619",
+      "population": 1423851,
+      "latitude": 32.7157,
+      "longitude": -117.1611,
+      "localFacts": {
+        "landmarks": [
+          "Balboa Park",
+          "USS Midway Museum",
+          "San Diego Zoo"
+        ],
+        "highways": [
+          "I-5",
+          "I-8",
+          "I-15"
+        ],
+        "exits": [
+          "I-5 Exit 19 - Downtown San Diego",
+          "I-15 Exit 18 - Sports Arena"
+        ],
+        "neighboringCities": [
+          "La Jolla",
+          "Chula Vista",
+          "National City",
+          "Carlsbad"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "city": "San Jose",
+      "state": "California",
+      "stateCode": "CA",
+      "county": "Santa Clara County",
+      "slug": "san-jose-ca",
+      "areaCode": "408",
+      "population": 1021795,
+      "latitude": 37.3382,
+      "longitude": -121.8863,
+      "localFacts": {
+        "landmarks": [
+          "San Jose State University",
+          "Winchester Mystery House",
+          "Tech Museum of Innovation"
+        ],
+        "highways": [
+          "I-280",
+          "I-680",
+          "US-101"
+        ],
+        "exits": [
+          "US-101 Exit 275 - Downtown San Jose",
+          "I-680 Exit 10 - Santa Clara"
+        ],
+        "neighboringCities": [
+          "Santa Clara",
+          "Sunnyvale",
+          "Cupertino",
+          "Milpitas"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "city": "San Francisco",
+      "state": "California",
+      "stateCode": "CA",
+      "county": "San Francisco County",
+      "slug": "san-francisco-ca",
+      "areaCode": "415",
+      "population": 873965,
+      "latitude": 37.7749,
+      "longitude": -122.4194,
+      "localFacts": {
+        "landmarks": [
+          "Golden Gate Bridge",
+          "Alcatraz Island",
+          "Cable Cars"
+        ],
+        "highways": [
+          "I-80",
+          "US-101",
+          "CA-1"
+        ],
+        "exits": [
+          "I-80 Exit 7A - Downtown SF",
+          "US-101 Exit 434 - South of Market"
+        ],
+        "neighboringCities": [
+          "Oakland",
+          "Daly City",
+          "South San Francisco",
+          "Pacifica"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "city": "Fresno",
+      "state": "California",
+      "stateCode": "CA",
+      "county": "Fresno County",
+      "slug": "fresno-ca",
+      "areaCode": "559",
+      "population": 535007,
+      "latitude": 36.7469,
+      "longitude": -119.7726,
+      "localFacts": {
+        "landmarks": [
+          "Forestiere Underground Gardens",
+          "Fresno State University",
+          "Meux Home Museum"
+        ],
+        "highways": [
+          "I-99",
+          "US-99",
+          "CA-41"
+        ],
+        "exits": [
+          "US-99 Exit 131 - Downtown Fresno",
+          "I-99 Exit 52 - North Fresno"
+        ],
+        "neighboringCities": [
+          "Clovis",
+          "Reedley",
+          "Sanger",
+          "Visalia"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "city": "Sacramento",
+      "state": "California",
+      "stateCode": "CA",
+      "county": "Sacramento County",
+      "slug": "sacramento-ca",
+      "areaCode": "916",
+      "population": 525398,
+      "latitude": 38.5816,
+      "longitude": -121.4944,
+      "localFacts": {
+        "landmarks": [
+          "California State Capitol",
+          "Old Sacramento Historic District",
+          "American River Parkway"
+        ],
+        "highways": [
+          "I-5",
+          "I-80",
+          "US-50"
+        ],
+        "exits": [
+          "I-5 Exit 518B - Downtown Sacramento",
+          "US-50 Exit 7 - Capitol Park"
+        ],
+        "neighboringCities": [
+          "Carmichael",
+          "Rancho Cordova",
+          "Folsom",
+          "Davis"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "city": "Long Beach",
+      "state": "California",
+      "stateCode": "CA",
+      "county": "Los Angeles County",
+      "slug": "long-beach-ca",
+      "areaCode": "562",
+      "population": 466742,
+      "latitude": 33.7701,
+      "longitude": -118.1937,
+      "localFacts": {
+        "landmarks": [
+          "Queen Mary",
+          "Long Beach Port",
+          "Aquarium of the Pacific"
+        ],
+        "highways": [
+          "I-405",
+          "I-605",
+          "I-710"
+        ],
+        "exits": [
+          "I-405 Exit 36 - Downtown Long Beach",
+          "I-710 Exit 21 - Signal Hill"
+        ],
+        "neighboringCities": [
+          "Los Angeles",
+          "Seal Beach",
+          "Lakewood",
+          "Signal Hill"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "city": "Oakland",
+      "state": "California",
+      "stateCode": "CA",
+      "county": "Alameda County",
+      "slug": "oakland-ca",
+      "areaCode": "510",
+      "population": 433031,
+      "latitude": 37.8044,
+      "longitude": -122.2712,
+      "localFacts": {
+        "landmarks": [
+          "Lake Merritt",
+          "Oakland Museum of California",
+          "Jack London Square"
+        ],
+        "highways": [
+          "I-80",
+          "I-880",
+          "US-50"
+        ],
+        "exits": [
+          "I-880 Exit 40 - Downtown Oakland",
+          "I-80 Exit 41 - West Oakland"
+        ],
+        "neighboringCities": [
+          "San Francisco",
+          "Berkeley",
+          "Alameda",
+          "Hayward"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "city": "Bakersfield",
+      "state": "California",
+      "stateCode": "CA",
+      "county": "Kern County",
+      "slug": "bakersfield-ca",
+      "areaCode": "661",
+      "population": 407453,
+      "latitude": 35.3733,
+      "longitude": -119.0187,
+      "localFacts": {
+        "landmarks": [
+          "Kern County Museum",
+          "Buena Vista Lake",
+          "Crystal Palace nightlife district"
+        ],
+        "highways": [
+          "I-5",
+          "US-99",
+          "CA-58"
+        ],
+        "exits": [
+          "US-99 Exit 23 - Downtown Bakersfield",
+          "I-5 Exit 129 - North Bakersfield"
+        ],
+        "neighboringCities": [
+          "Delano",
+          "Wasco",
+          "Shafter",
+          "Taft"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "city": "Anaheim",
+      "state": "California",
+      "stateCode": "CA",
+      "county": "Orange County",
+      "slug": "anaheim-ca",
+      "areaCode": "714",
+      "population": 346824,
+      "latitude": 33.8358,
+      "longitude": -117.9127,
+      "localFacts": {
+        "landmarks": [
+          "Disneyland Park",
+          "Disney California Adventure",
+          "Honda Center"
+        ],
+        "highways": [
+          "I-5",
+          "I-405",
+          "CA-57"
+        ],
+        "exits": [
+          "I-5 Exit 107 - Disneyland",
+          "CA-57 Exit 8 - Anaheim"
+        ],
+        "neighboringCities": [
+          "Santa Ana",
+          "Garden Grove",
+          "Buena Park",
+          "Cypress"
+        ]
+      }
+    }
+  ]
+}

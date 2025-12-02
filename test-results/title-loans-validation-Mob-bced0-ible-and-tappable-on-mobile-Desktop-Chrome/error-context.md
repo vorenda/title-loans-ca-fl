@@ -1,0 +1,285 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "🔑 TitleCash" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: 🔑
+        - generic [ref=e7]:
+          - text: Title
+          - strong [ref=e8]: Cash
+      - button "Toggle menu" [ref=e9] [cursor=pointer]
+  - main [ref=e14]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]: ✓
+        - generic [ref=e23]: Licensed Lenders - Fast Approval
+      - heading "Get Cash Today with Your Car Title" [level=1] [ref=e24]
+      - paragraph [ref=e25]:
+        - text: Borrow up to $25,000 using your car as collateral. Keep driving while you repay.
+        - strong [ref=e26]: Bad credit OK.
+        - text: Get approved in minutes, funded in hours.
+      - generic [ref=e27]:
+        - link "Apply Now - Get Cash Today →" [ref=e28] [cursor=pointer]:
+          - /url: /apply
+          - text: Apply Now - Get Cash Today
+          - generic [ref=e29]: →
+        - link "📞 Call (800) 555-1234" [ref=e30] [cursor=pointer]:
+          - /url: tel:+18005551234
+          - generic [ref=e31]: 📞
+          - text: Call (800) 555-1234
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: 🛡️
+          - generic [ref=e35]: State Licensed
+        - generic [ref=e36]:
+          - generic [ref=e37]: ⚡
+          - generic [ref=e38]: Same Day Funding
+        - generic [ref=e39]:
+          - generic [ref=e40]: 🚗
+          - generic [ref=e41]: Keep Your Car
+        - generic [ref=e42]:
+          - generic [ref=e43]: ✓
+          - generic [ref=e44]: Bad Credit OK
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - heading "How It Works" [level=2] [ref=e48]
+        - paragraph [ref=e49]: Get cash in 3 simple steps. The process takes less than 30 minutes.
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]: "1"
+          - generic [ref=e53]: 📝
+          - heading "Apply Online or Call" [level=3] [ref=e54]
+          - paragraph [ref=e55]: Fill out our simple application in 5 minutes. We'll need basic info about you and your car.
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - generic [ref=e58]: ✓
+              - text: Valid government ID
+            - listitem [ref=e59]:
+              - generic [ref=e60]: ✓
+              - text: Proof of income
+            - listitem [ref=e61]:
+              - generic [ref=e62]: ✓
+              - text: Car title in your name
+            - listitem [ref=e63]:
+              - generic [ref=e64]: ✓
+              - text: Proof of residence
+        - generic [ref=e65]:
+          - generic [ref=e66]: "2"
+          - generic [ref=e67]: ✓
+          - heading "Get Approved Fast" [level=3] [ref=e68]
+          - paragraph [ref=e69]: Most applicants are approved within 15 minutes. We'll tell you exactly how much you can borrow.
+          - list [ref=e70]:
+            - listitem [ref=e71]:
+              - generic [ref=e72]: ✓
+              - text: Instant decision
+            - listitem [ref=e73]:
+              - generic [ref=e74]: ✓
+              - text: Bad credit OK
+            - listitem [ref=e75]:
+              - generic [ref=e76]: ✓
+              - text: Transparent terms
+            - listitem [ref=e77]:
+              - generic [ref=e78]: ✓
+              - text: No hidden fees
+        - generic [ref=e79]:
+          - generic [ref=e80]: "3"
+          - generic [ref=e81]: 💰
+          - heading "Get Your Cash" [level=3] [ref=e82]
+          - paragraph [ref=e83]: Sign your loan agreement and get your money. Direct deposit or cash pickup available same day.
+          - list [ref=e84]:
+            - listitem [ref=e85]:
+              - generic [ref=e86]: ✓
+              - text: Same day funding
+            - listitem [ref=e87]:
+              - generic [ref=e88]: ✓
+              - text: Keep driving your car
+            - listitem [ref=e89]:
+              - generic [ref=e90]: ✓
+              - text: Flexible repayment
+            - listitem [ref=e91]:
+              - generic [ref=e92]: ✓
+              - text: Early payoff anytime
+      - generic [ref=e93]:
+        - paragraph [ref=e94]: Ready to get started?
+        - link "Apply Now - It's Fast & Easy" [ref=e95] [cursor=pointer]:
+          - /url: /apply
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - heading "Why Choose Us" [level=2] [ref=e99]
+        - paragraph [ref=e100]: Fast, fair, and fully licensed title loan services you can trust.
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - generic [ref=e103]: ⚡
+          - heading "Fast Approval" [level=3] [ref=e104]
+          - paragraph [ref=e105]: Get approved in as little as 15 minutes. Most customers receive funding the same day they apply.
+        - generic [ref=e106]:
+          - generic [ref=e107]: 🚗
+          - heading "Keep Your Car" [level=3] [ref=e108]
+          - paragraph [ref=e109]: You keep driving your vehicle while repaying the loan. We only hold the title temporarily as collateral.
+        - generic [ref=e110]:
+          - generic [ref=e111]: 💵
+          - heading "Borrow More" [level=3] [ref=e112]
+          - paragraph [ref=e113]: Get up to $25,000 based on your car's value. Competitive rates with flexible repayment terms.
+        - generic [ref=e114]:
+          - generic [ref=e115]: ✓
+          - heading "Bad Credit OK" [level=3] [ref=e116]
+          - paragraph [ref=e117]: Your car is the collateral, not your credit score. We approve customers with all credit types.
+        - generic [ref=e118]:
+          - generic [ref=e119]: 🛡️
+          - heading "Licensed & Regulated" [level=3] [ref=e120]
+          - paragraph [ref=e121]: We're licensed in all states we serve and follow strict lending regulations for your protection.
+        - generic [ref=e122]:
+          - generic [ref=e123]: 📞
+          - heading "Local Support" [level=3] [ref=e124]
+          - paragraph [ref=e125]: Speak with real people at our local offices. We are here to answer questions and help you succeed.
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - heading "Our Services" [level=2] [ref=e129]
+        - paragraph [ref=e130]: Flexible title loan options to meet your needs.
+      - link "View All Services →" [ref=e132] [cursor=pointer]:
+        - /url: /services
+    - generic [ref=e134]:
+      - generic [ref=e135]:
+        - heading "What Our Customers Say" [level=2] [ref=e136]
+        - paragraph [ref=e137]: Real reviews from real people who got the cash they needed.
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - generic [ref=e140]: ★★★★★
+          - blockquote [ref=e141]: “I needed money for an emergency and they approved me in 20 minutes. The whole process was smooth and professional. Best part - I kept driving my car!”
+          - generic [ref=e142]:
+            - generic [ref=e143]: M
+            - generic [ref=e144]:
+              - generic [ref=e145]: Maria Rodriguez
+              - generic [ref=e146]: Miami, FL
+        - generic [ref=e147]:
+          - generic [ref=e148]: ★★★★★
+          - blockquote [ref=e149]: “My credit isn't great but they still approved me. Got $8,000 the same day. The staff was friendly and explained everything clearly. Highly recommend!”
+          - generic [ref=e150]:
+            - generic [ref=e151]: J
+            - generic [ref=e152]:
+              - generic [ref=e153]: James Chen
+              - generic [ref=e154]: Los Angeles, CA
+        - generic [ref=e155]:
+          - generic [ref=e156]: ★★★★★
+          - blockquote [ref=e157]: “Fast, easy, and transparent. No hidden fees or surprises. They treated me with respect and got me the money I needed to handle my medical bills.”
+          - generic [ref=e158]:
+            - generic [ref=e159]: S
+            - generic [ref=e160]:
+              - generic [ref=e161]: Sarah Thompson
+              - generic [ref=e162]: San Diego, CA
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]: 50,000+
+          - generic [ref=e166]: Loans Funded
+        - generic [ref=e167]:
+          - generic [ref=e168]: 4.8/5
+          - generic [ref=e169]: Average Rating
+        - generic [ref=e170]:
+          - generic [ref=e171]: 15+ Years
+          - generic [ref=e172]: In Business
+    - generic [ref=e174]:
+      - generic [ref=e175]:
+        - heading "Frequently Asked Questions" [level=2] [ref=e176]
+        - paragraph [ref=e177]: Get answers to common questions about title loans.
+      - generic [ref=e178]:
+        - group [ref=e180]:
+          - generic "What is a title loan? +" [ref=e181] [cursor=pointer]:
+            - generic [ref=e182]: What is a title loan?
+            - generic [ref=e183]: +
+        - group [ref=e185]:
+          - generic "How much can I borrow? +" [ref=e186] [cursor=pointer]:
+            - generic [ref=e187]: How much can I borrow?
+            - generic [ref=e188]: +
+        - group [ref=e190]:
+          - generic "Can I get approved with bad credit? +" [ref=e191] [cursor=pointer]:
+            - generic [ref=e192]: Can I get approved with bad credit?
+            - generic [ref=e193]: +
+        - group [ref=e195]:
+          - generic "What do I need to apply? +" [ref=e196] [cursor=pointer]:
+            - generic [ref=e197]: What do I need to apply?
+            - generic [ref=e198]: +
+        - group [ref=e200]:
+          - generic "Do I have to give up my car? +" [ref=e201] [cursor=pointer]:
+            - generic [ref=e202]: Do I have to give up my car?
+            - generic [ref=e203]: +
+    - generic [ref=e206]:
+      - heading "Service Areas" [level=2] [ref=e207]
+      - paragraph [ref=e208]: We serve customers throughout California and Florida.
+    - generic [ref=e210]:
+      - heading "Ready to Get Cash Today?" [level=2] [ref=e211]
+      - paragraph [ref=e212]: Apply now and get approved in minutes. Most customers receive funding the same day.
+      - generic [ref=e213]:
+        - link "Apply Now" [ref=e214] [cursor=pointer]:
+          - /url: /apply
+        - link "📞 Call (800) 555-1234" [ref=e215] [cursor=pointer]:
+          - /url: tel:+18005551234
+          - generic [ref=e216]: 📞
+          - text: Call (800) 555-1234
+  - contentinfo [ref=e217]:
+    - generic [ref=e219]:
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - generic [ref=e222]: 🔑
+          - generic [ref=e223]:
+            - text: Title
+            - strong [ref=e224]: Cash
+        - paragraph [ref=e225]: Licensed title loan services you can trust. Fast approval, fair rates, and local support.
+        - generic [ref=e226]:
+          - link "📞 (800) 555-1234" [ref=e227] [cursor=pointer]:
+            - /url: tel:+18005551234
+          - link "✉️ info@titlecash.com" [ref=e228] [cursor=pointer]:
+            - /url: mailto:info@titlecash.com
+      - generic [ref=e229]:
+        - heading "Our Services" [level=4] [ref=e230]
+        - list
+      - generic [ref=e231]:
+        - heading "Locations" [level=4] [ref=e232]
+        - list [ref=e233]:
+          - listitem [ref=e234]:
+            - link "View All Locations →" [ref=e235] [cursor=pointer]:
+              - /url: /locations
+      - generic [ref=e236]:
+        - heading "Quick Links" [level=4] [ref=e237]
+        - list [ref=e238]:
+          - listitem [ref=e239]:
+            - link "About Us" [ref=e240] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e241]:
+            - link "Contact" [ref=e242] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=e243]:
+            - link "Apply Now" [ref=e244] [cursor=pointer]:
+              - /url: /apply
+          - listitem [ref=e245]:
+            - link "FAQ" [ref=e246] [cursor=pointer]:
+              - /url: /faq
+    - generic [ref=e249]:
+      - heading "Important Loan Disclosures" [level=4] [ref=e250]
+      - generic [ref=e251]:
+        - paragraph [ref=e252]:
+          - strong [ref=e253]: "APR Disclosure:"
+          - text: Annual Percentage Rates (APR) for title loans vary by state and lender. Typical APRs range from 36% to 300% or higher. Loan terms typically range from 12 to 36 months.
+        - paragraph [ref=e254]:
+          - strong [ref=e255]: "State Regulations:"
+          - text: Title loan laws vary by state. Not all loan products are available in all states. We are licensed and regulated by state lending authorities in California (DFPI) and Florida (OFR).
+        - paragraph [ref=e256]:
+          - strong [ref=e257]: "Risk Warning:"
+          - text: Failure to repay your loan may result in loss of your vehicle through repossession. Consider all options before taking out a title loan. Only borrow what you can afford to repay.
+    - generic [ref=e260]:
+      - generic [ref=e261]:
+        - link "Privacy Policy" [ref=e262] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms of Service" [ref=e263] [cursor=pointer]:
+          - /url: /terms
+        - link "Disclaimers" [ref=e264] [cursor=pointer]:
+          - /url: /disclaimers
+        - link "State Licenses" [ref=e265] [cursor=pointer]:
+          - /url: /licenses
+      - paragraph [ref=e266]: © 2025 TitleCash. All rights reserved. Licensed lender in CA and FL.
+  - button "Open Next.js Dev Tools" [ref=e272] [cursor=pointer]:
+    - img [ref=e273]
+  - alert [ref=e276]
+```

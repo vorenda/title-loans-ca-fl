@@ -1,0 +1,139 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - 'link "Call Now: (800) 555-1234" [ref=e5] [cursor=pointer]':
+        - /url: tel:+18005551234
+      - generic [ref=e6]:
+        - link "🔑 TitleCash" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e8]: 🔑
+          - generic [ref=e9]:
+            - text: Title
+            - strong [ref=e10]: Cash
+        - navigation [ref=e11]:
+          - link "Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - link "Services" [ref=e14] [cursor=pointer]:
+            - /url: /services
+            - text: Services
+            - img [ref=e15]
+          - link "Locations" [ref=e18] [cursor=pointer]:
+            - /url: /locations
+            - text: Locations
+            - img [ref=e19]
+          - link "About" [ref=e21] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=e22] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e23]:
+          - link "📞 (800) 555-1234" [ref=e24] [cursor=pointer]:
+            - /url: tel:+18005551234
+            - generic [ref=e25]: 📞
+            - generic [ref=e26]: (800) 555-1234
+          - link "Apply Now" [ref=e27] [cursor=pointer]:
+            - /url: /apply
+  - main [ref=e28]:
+    - navigation "Breadcrumb" [ref=e31]:
+      - link "Home" [ref=e33] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e34]:
+        - generic [ref=e35]: /
+        - generic [ref=e36]: Locations
+    - generic [ref=e39]:
+      - heading "Find Title Loans Near You" [level=1] [ref=e40]
+      - paragraph [ref=e41]: We proudly serve customers across California and Florida. Select your state to find a location.
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - heading "Why Choose Our Locations" [level=2] [ref=e45]
+        - paragraph [ref=e46]: Every location offers the same great service and fast approval.
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e49]: 📍
+          - heading "Convenient Locations" [level=3] [ref=e50]
+          - paragraph [ref=e51]: Easy access from major highways and landmarks
+        - generic [ref=e52]:
+          - generic [ref=e53]: ⚡
+          - heading "Fast Service" [level=3] [ref=e54]
+          - paragraph [ref=e55]: Get approved and funded the same day
+        - generic [ref=e56]:
+          - generic [ref=e57]: 👥
+          - heading "Local Experts" [level=3] [ref=e58]
+          - paragraph [ref=e59]: Friendly staff who know your community
+    - generic [ref=e61]:
+      - heading "Can't Find Your City?" [level=2] [ref=e62]
+      - paragraph [ref=e63]: Apply online and we'll help you find the nearest location or arrange remote service.
+      - generic [ref=e64]:
+        - link "Apply Online" [ref=e65] [cursor=pointer]:
+          - /url: /apply
+        - link "📞 Call (800) 555-1234" [ref=e66] [cursor=pointer]:
+          - /url: tel:+18005551234
+          - generic [ref=e67]: 📞
+          - text: Call (800) 555-1234
+  - contentinfo [ref=e68]:
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e73]: 🔑
+          - generic [ref=e74]:
+            - text: Title
+            - strong [ref=e75]: Cash
+        - paragraph [ref=e76]: Licensed title loan services you can trust. Fast approval, fair rates, and local support.
+        - generic [ref=e77]:
+          - link "📞 (800) 555-1234" [ref=e78] [cursor=pointer]:
+            - /url: tel:+18005551234
+          - link "✉️ info@titlecash.com" [ref=e79] [cursor=pointer]:
+            - /url: mailto:info@titlecash.com
+      - generic [ref=e80]:
+        - heading "Our Services" [level=4] [ref=e81]
+        - list
+      - generic [ref=e82]:
+        - heading "Locations" [level=4] [ref=e83]
+        - list [ref=e84]:
+          - listitem [ref=e85]:
+            - link "View All Locations →" [ref=e86] [cursor=pointer]:
+              - /url: /locations
+      - generic [ref=e87]:
+        - heading "Quick Links" [level=4] [ref=e88]
+        - list [ref=e89]:
+          - listitem [ref=e90]:
+            - link "About Us" [ref=e91] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e92]:
+            - link "Contact" [ref=e93] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=e94]:
+            - link "Apply Now" [ref=e95] [cursor=pointer]:
+              - /url: /apply
+          - listitem [ref=e96]:
+            - link "FAQ" [ref=e97] [cursor=pointer]:
+              - /url: /faq
+    - generic [ref=e100]:
+      - heading "Important Loan Disclosures" [level=4] [ref=e101]
+      - generic [ref=e102]:
+        - paragraph [ref=e103]:
+          - strong [ref=e104]: "APR Disclosure:"
+          - text: Annual Percentage Rates (APR) for title loans vary by state and lender. Typical APRs range from 36% to 300% or higher. Loan terms typically range from 12 to 36 months.
+        - paragraph [ref=e105]:
+          - strong [ref=e106]: "State Regulations:"
+          - text: Title loan laws vary by state. Not all loan products are available in all states. We are licensed and regulated by state lending authorities in California (DFPI) and Florida (OFR).
+        - paragraph [ref=e107]:
+          - strong [ref=e108]: "Risk Warning:"
+          - text: Failure to repay your loan may result in loss of your vehicle through repossession. Consider all options before taking out a title loan. Only borrow what you can afford to repay.
+    - generic [ref=e111]:
+      - generic [ref=e112]:
+        - link "Privacy Policy" [ref=e113] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms of Service" [ref=e114] [cursor=pointer]:
+          - /url: /terms
+        - link "Disclaimers" [ref=e115] [cursor=pointer]:
+          - /url: /disclaimers
+        - link "State Licenses" [ref=e116] [cursor=pointer]:
+          - /url: /licenses
+      - paragraph [ref=e117]: © 2025 TitleCash. All rights reserved. Licensed lender in CA and FL.
+  - button "Open Next.js Dev Tools" [ref=e123] [cursor=pointer]:
+    - img [ref=e124]
+  - alert [ref=e127]
+```
