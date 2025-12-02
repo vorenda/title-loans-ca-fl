@@ -78,25 +78,9 @@ export interface CityPage {
   heroHeadline: string
   heroSubheadline: string
   branchPhotoUrl: string | null
-  localProofContent: {
-    root: {
-      type: string
-      children: Array<{
-        type: string
-        children: Array<{ text: string; type: string }>
-      }>
-    }
-  }
-  servicesContent: unknown
-  complianceContent: {
-    root: {
-      type: string
-      children: Array<{
-        type: string
-        children: Array<{ text: string; type: string }>
-      }>
-    }
-  }
+  localProofContent: string | null
+  servicesContent: string | null
+  complianceContent: string | null
   napContent: {
     businessName: string
     address: string

@@ -56,7 +56,7 @@ export const Services: CollectionConfig = {
     },
     {
       name: 'fullDescription',
-      type: 'richText',
+      type: 'textarea',
       admin: {
         description: 'Full service description for pillar page',
       },

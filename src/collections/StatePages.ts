@@ -156,17 +156,65 @@ export const StatePages: CollectionConfig = {
     },
     {
       name: 'disclaimer',
-      type: 'richText',
+      type: 'textarea',
       admin: {
         description: 'Required legal disclaimer for this state (YMYL compliance)',
       },
     },
     {
       name: 'cityPageContent',
-      type: 'richText',
+      type: 'group',
+      label: 'City Page Content Template',
       admin: {
         description: 'Pre-written content to include in city pages for this state',
       },
+      fields: [
+        {
+          name: 'headline',
+          type: 'text',
+          admin: {
+            description: 'Section headline (e.g., "Understanding Title Loan Laws in Florida")',
+          },
+        },
+        {
+          name: 'intro',
+          type: 'textarea',
+          admin: {
+            description: 'Introduction paragraph (use {{city}} as placeholder)',
+          },
+        },
+        {
+          name: 'keyPoints',
+          type: 'array',
+          label: 'Key Points',
+          fields: [
+            {
+              name: 'point',
+              type: 'text',
+              required: true,
+            },
+          ],
+        },
+        {
+          name: 'warnings',
+          type: 'array',
+          label: 'Warning Messages',
+          fields: [
+            {
+              name: 'warning',
+              type: 'text',
+              required: true,
+            },
+          ],
+        },
+        {
+          name: 'disclaimer',
+          type: 'textarea',
+          admin: {
+            description: 'State-specific disclaimer for city pages',
+          },
+        },
+      ],
     },
     {
       name: 'sources',

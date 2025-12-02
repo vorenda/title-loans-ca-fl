@@ -102,21 +102,21 @@ export const CityPages: CollectionConfig = {
     },
     {
       name: 'localProofContent',
-      type: 'richText',
+      type: 'textarea',
       admin: {
         description: 'Anti-Doorway content using local facts (landmarks, highways, exits)',
       },
     },
     {
       name: 'servicesContent',
-      type: 'richText',
+      type: 'textarea',
       admin: {
         description: 'Services offered with internal links UP to pillar pages',
       },
     },
     {
       name: 'complianceContent',
-      type: 'richText',
+      type: 'textarea',
       admin: {
         description: 'State compliance info (rate caps, consumer protections, disclaimers)',
       },
