@@ -45,7 +45,7 @@ async function getNavigationData() {
   }
 }
 
-export default async function RootLayout({
+export default async function FrontendLayout({
   children,
 }: {
   children: React.ReactNode
